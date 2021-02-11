@@ -1,0 +1,45 @@
+cara install pyton
+-->
+
+1# Install Python From Source Code (Latest Version)
+
+// sudo apt update
+
+// sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev wget
+
+cd /tmp
+
+wget https://www.python.org/ftp/python/3.9.1/Python-3.9.1.tgz
+
+tar –xf Python-3.8.3.tgz
+
+yandre-dle@yandredle-ThinkPad-T540p:/tmp$ cd Python-3.9.1
+
+
+yandre-dle@yandredle-ThinkPad-T540p:/tmp/Python-3.9.1$ ./configure --enable-optimizations
+
+make -j 8 // nproc
+
+sudo make altinstall
+
+
+yandre-dle@yandredle-ThinkPad-T540p:/tmp/Python-3.9.1$ python3.9 --version
+Python 3.9.1
+yandre-dle@yandredle-ThinkPad-T540p:/tmp/Python-3.9.1$ 
+
+
+2# Install pip untuk Python 3
+sudo apt update
+sudo apt install python3-pip
+
+
+yandre-dle@yandredle-ThinkPad-T540p:/tmp/Python-3.9.1$ pip3 --version
+pip 20.0.2 from /usr/lib/python3/dist-packages/pip (python 3.8)
+yandre-dle@yandredle-ThinkPad-T540p:/tmp/Python-3.9.1$ 
+
+
+3# cara menjalankan python di vsc
+yandre-dle@yandredle-ThinkPad-T540p:~/Documents/Catatan_PRGT_PYTHON/PYTHON-1/1- Mari mulai belajar Python/1. Mari Mulai$ python3 script.py 
+
+
+
