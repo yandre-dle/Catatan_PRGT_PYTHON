@@ -11,7 +11,7 @@ cd /tmp
 
 wget https://www.python.org/ftp/python/3.9.1/Python-3.9.1.tgz
 
-tar –xf Python-3.8.3.tgz
+tar –xf Python-3.9.1.tgz
 
 yandre-dle@yandredle-ThinkPad-T540p:/tmp$ cd Python-3.9.1
 
